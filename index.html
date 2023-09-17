@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
@@ -9,54 +9,68 @@
             padding: 10px 0;
         }
     </style>
-    <title>Zhaogui Wang</title>
+    <title>Week 4 (11 September - 17 September)</title>
 </head>
 <body>
      <div class="info-wrap">
       <div class="img">
-        <img src="https://s1.ax1x.com/2022/03/21/qnEsS0.png" alt="">
+        <img src="https://z1.ax1x.com/2023/09/17/pPhEUFe.jpg" alt="">
       </div>
       <div class="info-right">
-    <h1>王肇贵</h1>
+    <h1>Diver work</h1>
   
     <dl>
-        <dt>个人简介</dt>
-        <dd>王肇贵博士是大连海事大学船舶与海洋工程学院机械工程系的讲师。他拥有贝勒大学的机械工程硕士及博士学位，以及大连理工大学的机械工程学士学位。王博士的专长是使用有限元建模分析与聚合物沉积增材制造相关的数值分析及材料表征，主要研究兴趣是高性能热塑性塑料及其碳纤维增强复合材料的先进制造方法及其应用（课题组详情<a href="https://wzhaogui.gitee.io">Link</a>）。</dd>
-        
-        <br/>
-      
-        <dt>学术主页</dt>
-        <dd>
-            <ul>
-                <li>Researchgate Page <a href="https://www.researchgate.net/profile/Zhaogui-Wang">Link</a></li>            
-            </ul>
-        </dd>
-        
+        <dt>Fourth Week Schedule</dt>
+        <dd>The group held a meeting at 1:30 p.m. on 15 September. This week we optimized the details of the project design and discussed each section with our mentor. We learned how to use the six-axis robot in the lab and discussed automation options for a robot-centered project.
 
-        <dt>学术服务</dt>
-        <dd>
-            <ul>
-                <li>《Additive manufacturing letter》、《Structural Engineering and Mechanics》、《Proceedings of the Royal Society A》、《Nonlinear Engineering》等期刊的通讯审稿人 </li>            
-            </ul>
-        </dd>
-        
-    <dl>
-        <dt>新闻</dt>
-        <dd>
-            <ul>
-                <li>相关研究被外国新闻网址advanceseng报道 <a href="https://advanceseng.com/numerical-analysis-viscoelastic-creep-responses-aligned-short-fiber-reinforced-composites/">Link</a></li>
-                <li>加入大连海事大学 <a href="http://rsc.dlmu.edu.cn/nyjszqkgs20191127.pdf">Link</a></li>
-                <li>贝勒大学生活剪影 <a href="https://spe-stx.org/newsletters/SPE18NovemberExtruder/pdfs/SPE_Baylor_Chapter_2017-2018s.pdf">Link</a></li>
-            </ul>
-        </dd>
+
+<dd>
+1. ** Opening Equipment: **
+
+The size of the front angle of the tool angle determines the sharpness of the cutting edge, mainly by the hull material and tool material decision. The hull material is mostly 45# steel, medium strength, the tool material is cemented carbide, good bending strength and toughness, so you can choose a larger front angle, select the front angle γ = 20.
+The main role of the back angle is to reduce the friction between the tool back face and the machining surface in the cutting process, appropriate increase in the back angle can reduce tool wear, take the back angle of 10 degrees, edge tilt angle is generally between 0 and 5 degrees, take the edge tilt angle of 1 degree.
+<dd>
+2. ** Robotic Arm End-effector**
+
+The force measuring module, normal vector detecting module, support unit and motorized spindle of all the structural parts of the end effector are relatively heavy and have good controllability.
+
+
+
+<dd>
+3. **Analysis of motion planning of mechanical arm **
+The flange of the drive motor and the rotating plate of the base are fixed by bolts. The rotation of the motor drives the rotating cover to rotate.
+Two angular contact ball bearings are installed on the bearing seat to share the load on the output shaft of the drive motor to prevent the output bearing from being too affected by the load.
+
+
+
+<dd>
+4. **Analysis of motion planning of mechanical arm **
+
+Horizontal inertial force:
+
+
+
+Fluid velocity is 2t(m/s ) 
+The inertial force coefficient is approximately 2.0
+The density of seawater is 1025 kg per cubic meter
+The volume of the robotic arm is about 0.07 cubic meters
+ The horizontal inertial force is approximately 287N
+
+
+
+
+<dd>
+5. **Equipment Automation**
+Automated design of opening positions
+Put a small hole in the wreck's fuel tank.
+Taking images of fuel tanks using an underwater camera.
+Reading the image of the iron plate
+Convert image to grayscale
+Binarize the image
+Detecting holes using connected region analysis
+
+<dd>
+
     </dl>
         
-    <div style="padding: 5px;">
-        <img src="https://s1.ax1x.com/2020/05/29/tnFTAS.jpg" alt="tnFTAS.jpg" border="0" />
-    </div>
-        
-    <div style="padding-top: 20px;">
-        <a href="http://geocld.github.io">鸣谢技术支持：Geocld </a>
-    </div>
-</body>
-</html>
+    
